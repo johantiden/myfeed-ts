@@ -7,10 +7,11 @@
   "author": "Johan Tidén <johan.tiden@looklet.com>",
   "license": "GPLV2",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "fe": "yarn workspace frontend",
-    "be": "yarn workspace backend",
-    "shared": "yarn workspace shared"
+    "be": "yarn workspace backend"
   }
 }

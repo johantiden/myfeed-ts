@@ -1,12 +1,13 @@
 {
   "name": "backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "licence": "GPLV2",
-  "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "src"
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "include": ["src"],
-  "references": [{ "path": "../shared" }]
+  "scripts": {
+    "build": "npm install",
+    "start": "node src/app.js"
+  },
+  "eslintConfig": {}
 }
