@@ -1,0 +1,10 @@
+{
+  "name": "myfeed-ts",
+  "version": "1.0.0",
+  "description": "Aggregates your rss news feeds into a single page",
+  "main": "index.js",
+  "repository": "git@github.com:johantiden/myfeed-ts.git",
+  "author": "Johan Tidén <johan.tiden@looklet.com>",
+  "license": "GPLv2",
+  "private": false
+}
